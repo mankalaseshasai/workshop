@@ -71,11 +71,14 @@ function detailsOfItem(index) {
     
     var details = "id: " + list[index].id
     details += "<br>"
-    details += list[index].item
+    details += list[index].name
     details += "<br>"
-    details += list[index].description
+    details += list[index].course
     details += "<br>"
-    details += "Rs. " + list[index].price
+    details +=  list[index].mobileno
+ details += "<br>"
+  details +=  list[index].adhar
+details +=  "<br>"
     
     return details
 }
